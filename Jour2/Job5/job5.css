@@ -1,0 +1,11 @@
+footer{
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    /*var() permet d'insérer la valeur d'une propriété personnalisée (parfois appelée « variable CSS »)*/
+    background-color: var(--accent-color); 
+    bottom: 0%;
+}
+body{
+    height: 4096px;
+}
